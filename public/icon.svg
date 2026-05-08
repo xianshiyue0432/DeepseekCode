@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Blue whale app icon">
+  <defs>
+    <linearGradient id="bg" x1="164" y1="104" x2="858" y2="938" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9f8ff"/>
+      <stop offset="0.44" stop-color="#52c7ff"/>
+      <stop offset="1" stop-color="#0b52c8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="34%" cy="23%" r="60%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="252" y1="360" x2="743" y2="704" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55cbff"/>
+      <stop offset="0.52" stop-color="#1686f2"/>
+      <stop offset="1" stop-color="#0743a8"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="299" y1="583" x2="661" y2="733" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1fcff"/>
+      <stop offset="1" stop-color="#aee9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-18%" y="-24%" width="136%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="28" flood-color="#062f82" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="220" fill="url(#glow)"/>
+  <path d="M177 777c94 38 193 54 318 54 147 0 242-33 353-33" fill="none" stroke="#e3f8ff" stroke-width="32" stroke-linecap="round" opacity="0.48"/>
+  <path d="M225 836c77 25 160 38 258 38 122 0 213-23 316-34" fill="none" stroke="#0856b6" stroke-width="30" stroke-linecap="round" opacity="0.25"/>
+
+  <g filter="url(#shadow)">
+    <path d="M719 496c58-84 131-123 204-94-54 38-84 89-100 145-39-11-74-28-104-51Z" fill="#0f72df"/>
+    <path d="M724 585c72 21 129 72 159 145-72-5-126-37-165-96 4-16 6-32 6-49Z" fill="#0958c7"/>
+    <path d="M178 563c14-127 129-211 300-211 119 0 214 34 278 96 66 64 68 151 7 211-77 75-229 94-375 50-125-38-204-93-210-146Z" fill="url(#body)"/>
+    <path d="M203 570c55 58 151 99 278 113 101 11 193-4 264-41-55 77-184 117-329 92-119-20-208-75-238-138 0-10 2-19 5-28Z" fill="url(#belly)" opacity="0.98"/>
+    <path d="M461 599c47 48 51 107 10 168-28-70-63-116-111-140 30-10 64-19 101-28Z" fill="#0752bf" opacity="0.9"/>
+    <path d="M292 594c86 35 211 55 345 31" fill="none" stroke="#55bdf5" stroke-width="22" stroke-linecap="round" opacity="0.35"/>
+    <path d="M307 641c63 22 147 36 237 34" fill="none" stroke="#0d6bd7" stroke-width="16" stroke-linecap="round" opacity="0.22"/>
+    <circle cx="318" cy="495" r="20" fill="#06306f"/>
+    <circle cx="326" cy="487" r="6" fill="#e8fbff"/>
+    <path d="M227 548c35 29 77 43 127 43" fill="none" stroke="#06306f" stroke-width="18" stroke-linecap="round" opacity="0.28"/>
+  </g>
+
+  <path d="M389 317c-34-49-9-87 42-100" fill="none" stroke="#e8fbff" stroke-width="24" stroke-linecap="round" opacity="0.86"/>
+  <path d="M436 312c-12-48 13-78 58-85" fill="none" stroke="#e8fbff" stroke-width="20" stroke-linecap="round" opacity="0.74"/>
+  <path d="M361 336c-48-20-61-55-40-90" fill="none" stroke="#e8fbff" stroke-width="18" stroke-linecap="round" opacity="0.62"/>
+</svg>
